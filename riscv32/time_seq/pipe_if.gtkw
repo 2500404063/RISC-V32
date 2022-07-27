@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sun Jul 17 02:00:42 2022
+[*]
+[dumpfile] "C:\Users\Felix\Desktop\Hardware\FPGA\RV32\riscv32\time_seq\wave.vcd"
+[savefile] "C:\Users\Felix\Desktop\Hardware\FPGA\RV32\riscv32\time_seq\pipe_if.gtkw"
+[timestart] 0
+[size] 1920 1009
+[pos] -1 -1
+*-9.000000 748 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rv32_tb.
+[treeopen] rv32_tb.core_clk_inst.
+[treeopen] rv32_tb.pipe_top_inst.
+[treeopen] rv32_tb.pipe_top_inst.sram_slaver.
+[sst_width] 197
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 297
+@28
+rv32_tb.pipe_top_inst.sram_master.rst_n
+rv32_tb.pipe_clk
+rv32_tb.sram_clk
+@200
+-IF
+@22
+[color] 3
+rv32_tb.pipe_top_inst.if_pc[31:0]
+[color] 2
+rv32_tb.pipe_top_inst.if_instr[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

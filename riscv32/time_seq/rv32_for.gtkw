@@ -1,0 +1,121 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Jul 26 11:27:45 2022
+[*]
+[dumpfile] "C:\Users\Felix\Desktop\Hardware\FPGA\RV32\riscv32\time_seq\wave.vcd"
+[savefile] "C:\Users\Felix\Desktop\Hardware\FPGA\RV32\riscv32\time_seq\rv32_for.gtkw"
+[timestart] 7780
+[size] 1920 1009
+[pos] -1 -1
+*-11.035341 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rv32_tb.
+[treeopen] rv32_tb.pipe_top_inst.
+[treeopen] rv32_tb.pipe_top_inst.sram_slaver.srams[0].
+[sst_width] 197
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 297
+@28
+rv32_tb.pipe_top_inst.clk
+rv32_tb.pipe_top_inst.rst_n
+@200
+-IF
+@22
+[color] 2
+rv32_tb.pipe_top_inst.pipe_if_inst.if_ram_pc[31:0]
+[color] 2
+rv32_tb.pipe_top_inst.pipe_if_inst.pc[31:0]
+@200
+-ID
+@22
+[color] 3
+rv32_tb.pipe_top_inst.pipe_id_inst.ram_dout[31:0]
+[color] 3
+rv32_tb.pipe_top_inst.pipe_id_inst.id_pc[31:0]
+@28
+[color] 3
+rv32_tb.pipe_top_inst.pipe_id_inst.ADDI
+[color] 3
+rv32_tb.pipe_top_inst.pipe_id_inst.SW
+[color] 3
+rv32_tb.pipe_top_inst.pipe_id_inst.LW
+[color] 3
+rv32_tb.pipe_top_inst.pipe_id_inst.BGEU
+[color] 3
+rv32_tb.pipe_top_inst.pipe_id_inst.JAL
+@200
+-IE
+@28
+[color] 5
+rv32_tb.pipe_top_inst.pipe_ie_inst.op_JAL
+[color] 5
+rv32_tb.pipe_top_inst.pipe_ie_inst.result_jmp
+@22
+[color] 5
+rv32_tb.pipe_top_inst.pipe_ie_inst.result_pc[31:0]
+[color] 5
+rv32_tb.pipe_top_inst.pipe_ie_inst.ie_pc[31:0]
+@28
+[color] 5
+rv32_tb.pipe_top_inst.pipe_ie_inst.result_computed
+@22
+[color] 5
+rv32_tb.pipe_top_inst.pipe_ie_inst.result_value[31:0]
+@200
+-MEM
+@28
+[color] 6
+rv32_tb.pipe_top_inst.pipe_mem_inst.ie_result_mem_load
+[color] 6
+rv32_tb.pipe_top_inst.pipe_mem_inst.ie_result_mem_store
+[color] 6
+rv32_tb.pipe_top_inst.pipe_mem_inst.ie_result_computed
+[color] 6
+rv32_tb.pipe_top_inst.pipe_mem_inst.mem_validout
+[color] 6
+rv32_tb.pipe_top_inst.pipe_mem_inst.mem_ram_en
+[color] 6
+rv32_tb.pipe_top_inst.pipe_mem_inst.mem_write_rd
+@22
+[color] 6
+rv32_tb.pipe_top_inst.pipe_mem_inst.mem_ram_addr[31:0]
+[color] 6
+rv32_tb.pipe_top_inst.pipe_mem_inst.mem_ram_din[31:0]
+@200
+-WB
+@28
+[color] 4
+rv32_tb.pipe_top_inst.pipe_wb_inst.wb_reg_wen
+@22
+[color] 4
+rv32_tb.pipe_top_inst.pipe_wb_inst.wb_rd_din[31:0]
+@28
+[color] 4
+rv32_tb.pipe_top_inst.pipe_wb_inst.wb_pc_wen
+@22
+[color] 4
+rv32_tb.pipe_top_inst.pipe_wb_inst.pc_pcout[31:0]
+@28
+[color] 4
+rv32_tb.pipe_top_inst.pipe_wb_inst.wb_validout
+[color] 4
+rv32_tb.pipe_top_inst.pipe_wb_inst.mem_result_jmp
+@201
+-PC
+@28
+[color] 2
+rv32_tb.pipe_top_inst.reg_pc_inst.wen
+@22
+[color] 3
+rv32_tb.pipe_top_inst.reg_pc_inst.pcin[31:0]
+@200
+-ARR
+@22
+[color] 5
+rv32_tb.pipe_top_inst.reg_arr_inst.test1[31:0]
+[color] 6
+rv32_tb.pipe_top_inst.reg_arr_inst.test2[31:0]
+[color] 7
+rv32_tb.pipe_top_inst.reg_arr_inst.test3[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
